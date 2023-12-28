@@ -1,7 +1,11 @@
 $(function () {
     $('.visual_wrap').slick({
-        arrows: false,
+        arrows: true,
     });
 
+    $('.header .xi-bars').on('click', function (e) {
+        e.preventDefault();
+        $('.header .gnb').toggleClass('on');
+    })
 
 });
