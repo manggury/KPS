@@ -402,11 +402,6 @@
     font-size: 20px;
 }
 
-.solution_wrap .left a .footer {
-    background: #666;
-    height: 50vh;
-}
-
 .solution_wrap .right {
     overflow: hidden;
 }
@@ -415,6 +410,18 @@
     height: 500px;
     clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
 
+}
+
+@media (max-width:1200px) {
+    .solution_wrap .left {
+        padding: 100px 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .solution_wrap .right {
+        display: none;
+    }
 }
 
 @media (max-width:768px) {
